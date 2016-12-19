@@ -1,0 +1,26 @@
+{
+    "name": "dhii/storage-interface",
+    "description": "A set of interfaces for generic storage abstraction.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dhii Team",
+            "email": "development@dhii.co"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+    	"php": "^5.3.9 | ^7.0"
+    },
+    "require-dev": {
+    	"phpunit/phpunit": "4.*",
+    	"ptrofimov/xpmock": "^1.1",
+    	"dhii/php-cs-fixer-config": "dev-php-5.3"
+    },
+    "autoload": {
+    	"psr-4": {
+    		"Dhii\\Storage\\": "src/"
+    	}
+    }
+}
