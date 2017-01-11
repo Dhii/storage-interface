@@ -19,11 +19,20 @@ interface OperationResultInterface
     public function getResultSet();
 
     /**
-     * Gets the auto insert-ID that may be the result of a create operation.
+     * Retrieves the auto insert-ID that may be the result of a create operation.
      *
      * @since [*next-version*]
      *
      * @return int|null The ID, if it resulted from the operation; otherwise, null.
      */
     public function getInsertId();
+
+    /**
+     * Retrieves the error message that may be the result of an operation.
+     *
+     * @since [*next-version*]
+     *
+     * @return string|null The error message, if it resulted from the operation; otherwise, null.
+     */
+    public function getErrorMessage();
 }
