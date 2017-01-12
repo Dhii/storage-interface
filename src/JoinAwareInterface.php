@@ -3,6 +3,7 @@
 namespace Dhii\Storage;
 
 use Dhii\Espresso\ExpressionInterface;
+use Dhii\Espresso\LogicalExpressionInterface;
 
 /**
  * Something that represents join information.
