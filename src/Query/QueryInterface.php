@@ -1,6 +1,6 @@
 <?php
 
-namespace Dhii\Storage;
+namespace Dhii\Storage\Query;
 
 /**
  * Represents the specifics of the query.
