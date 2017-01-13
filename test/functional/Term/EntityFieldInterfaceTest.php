@@ -1,12 +1,12 @@
 <?php
 
-namespace Dhii\Storage\Test;
+namespace Dhii\Storage\Test\Term;
 
-use \Dhii\Storage\EntityFieldInterface;
+use \Dhii\Storage\Term\EntityFieldInterface;
 use \Xpmock\TestCase;
 
 /**
- * Tests {@see \Dhii\Storage\EntityFieldInterface}.
+ * Tests {@see \Dhii\Storage\Term\EntityFieldInterface}.
  *
  * @since [*next-version*]
  */
@@ -16,7 +16,7 @@ class EntityFieldInterfaceTest extends TestCase
     /**
      * The name of the test subject.
      */
-    const TEST_SUBJECT_CLASSNAME = 'Dhii\\Storage\\EntityFieldInterface';
+    const TEST_SUBJECT_CLASSNAME = 'Dhii\\Storage\\Term\\EntityFieldInterface';
 
     /**
      * Creates a new instance of the test subject.
@@ -30,6 +30,7 @@ class EntityFieldInterfaceTest extends TestCase
         $mock = $this->mock(static::TEST_SUBJECT_CLASSNAME)
             ->getEntityName()
             ->getFieldName()
+            ->evaluate()
             ->new();
 
         return $mock;
@@ -38,7 +39,7 @@ class EntityFieldInterfaceTest extends TestCase
     /**
      * Tests whether a valid instance of the test subject can be created.
      *
-     * @covers \Dhii\Storage\EntityFieldInterface
+     * @covers \Dhii\Storage\Term\EntityFieldInterface
      *
      * @since [*next-version*]
      */
