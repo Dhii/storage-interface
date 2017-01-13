@@ -2,6 +2,10 @@
 
 namespace Dhii\Storage;
 
+use \Dhii\Storage\Operation\OperationInterface;
+use \Dhii\Storage\Operation\OperationResultInterface;
+use \Dhii\Storage\Query\QueryInterface;
+
 /**
  * Medium-agnostic storage adapter.
  *
