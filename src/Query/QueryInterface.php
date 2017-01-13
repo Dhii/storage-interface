@@ -8,5 +8,6 @@ namespace Dhii\Storage\Query;
  * @since [*next-version*]
  */
 interface QueryInterface extends
+    EntityAwareInterface
 {
 }
