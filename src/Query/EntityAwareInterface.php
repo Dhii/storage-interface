@@ -6,24 +6,24 @@ use Dhii\Espresso\ExpressionInterface;
 use Dhii\Espresso\LogicalExpressionInterface;
 
 /**
- * Something that represents join information.
+ * Something that provides information about storage entities.
  *
- * That is, what other data sources to involve in a storage operation, and how they relate.
+ * That is, what data sources to involve in a storage operation, and how they relate.
  *
  * @since [*next-version*]
  */
-interface JoinAwareInterface
+interface EntityAwareInterface
 {
     /**
-     * Retrieve the expression that determines what other data sources should be involved in a storage operation.
+     * Retrieve the expression that determines what data sources should be involved in a storage operation.
      *
      * Typically, the expression terms would represent entities.
      *
      * @since [*next-version*]
      *
-     * @return ExpressionInterface The expression that represents entities to join.
+     * @return ExpressionInterface The expression that represents the entities.
      */
-    public function getJoinEntities();
+    public function getEntities();
 
     /**
      * Retrieve the expression that determines how joined entities relate to each other.
