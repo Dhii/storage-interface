@@ -1,6 +1,6 @@
 <?php
 
-namespace Dhii\Storage;
+namespace Dhii\Storage\Query;
 
 use Dhii\Espresso\ExpressionInterface;
 use Dhii\Espresso\LogicalExpressionInterface;

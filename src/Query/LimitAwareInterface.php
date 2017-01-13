@@ -1,6 +1,6 @@
 <?php
 
-namespace Dhii\Storage;
+namespace Dhii\Storage\Query;
 
 /**
  * Represents something that is aware of how storage operations should be limited to a number of affected rows.

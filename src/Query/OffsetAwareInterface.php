@@ -1,6 +1,6 @@
 <?php
 
-namespace Dhii\Storage;
+namespace Dhii\Storage\Query;
 
 /**
  * Something that is aware of the offset of storage operation result.
