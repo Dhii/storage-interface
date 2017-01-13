@@ -1,6 +1,6 @@
 <?php
 
-namespace Dhii\Storage;
+namespace Dhii\Storage\Term;
 
 use \Dhii\Util\String\StringableInterface;
 
