@@ -1,6 +1,6 @@
 <?php
 
-namespace Dhii\Storage;
+namespace Dhii\Storage\Operation;
 
 /**
  * Represents a result of a storage operation.
