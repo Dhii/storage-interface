@@ -2,6 +2,7 @@
 
 namespace Dhii\Storage\Term;
 
+use \Dhii\Evaluable\EvaluableInterface;
 use \Dhii\Util\String\StringableInterface;
 
 /**
@@ -9,7 +10,7 @@ use \Dhii\Util\String\StringableInterface;
  *
  * @since [*next-version*]
  */
-interface EntityFieldInterface
+interface EntityFieldInterface extends EvaluableInterface
 {
     /**
      * Retrieve the name of the entity.
