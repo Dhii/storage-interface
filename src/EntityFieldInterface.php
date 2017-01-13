@@ -9,7 +9,7 @@ use \Dhii\Util\String\StringableInterface;
  *
  * @since [*next-version*]
  */
-interface EntityFieldInterface extends EntityAwareInterface
+interface EntityFieldInterface
 {
     /**
      * Retrieve the name of the entity.
