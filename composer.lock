@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "2d0fefd8e8e1a5a851c6fecbace4adca",
-    "content-hash": "c3f75e87aa65770ee20bf57ae7af8bef",
+    "hash": "226e2a9c5eea66bad0054ad456a2a578",
+    "content-hash": "c7e4029e51a0f6be50ea93523d9a59ff",
     "packages": [
         {
             "name": "dhii/data-key-value-aware-interface",
@@ -138,6 +138,42 @@
                 "issues": "https://github.com/Dhii/evaluable-interface/issues"
             },
             "time": "2016-12-26 15:25:15"
+        },
+        {
+            "name": "dhii/stringable-interface",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Dhii/stringable-interface.git",
+                "reference": "534f7600e3c197c7ce5d0acc0cf8e14fe26480d5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Dhii/stringable-interface/zipball/534f7600e3c197c7ce5d0acc0cf8e14fe26480d5",
+                "reference": "534f7600e3c197c7ce5d0acc0cf8e14fe26480d5",
+                "shasum": ""
+            },
+            "require-dev": {
+                "dhii/php-cs-fixer-config": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Dhii\\Util\\String\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Dhii Team",
+                    "email": "development@dhii.co"
+                }
+            ],
+            "description": "An interface that represents the contract which requires the implementation of the `__toString()` method.",
+            "time": "2016-07-10 02:52:32"
         }
     ],
     "packages-dev": [
@@ -1715,6 +1751,7 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "dhii/espresso-interface": 20,
+        "dhii/stringable-interface": 20,
         "dhii/php-cs-fixer-config": 20
     },
     "prefer-stable": false,
