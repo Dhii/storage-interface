@@ -1,6 +1,6 @@
 <?php
 
-namespace Dhii\Storage\Test;
+namespace Dhii\Storage\FuncTest;
 
 use \Dhii\Storage\AdapterInterface;
 use \Xpmock\TestCase;

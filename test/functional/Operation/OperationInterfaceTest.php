@@ -1,6 +1,6 @@
 <?php
 
-namespace Dhii\Storage\Test\Operation;
+namespace Dhii\Storage\FuncTest\Operation;
 
 use \Dhii\Storage\Operation\OperationInterface;
 use \Xpmock\TestCase;

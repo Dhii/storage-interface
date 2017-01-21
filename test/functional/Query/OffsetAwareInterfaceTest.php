@@ -1,6 +1,6 @@
 <?php
 
-namespace Dhii\Storage\Test\Query;
+namespace Dhii\Storage\FuncTest\Query;
 
 use \Dhii\Storage\Query\OffsetAwareInterface;
 use \Xpmock\TestCase;

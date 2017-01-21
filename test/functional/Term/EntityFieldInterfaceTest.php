@@ -1,6 +1,6 @@
 <?php
 
-namespace Dhii\Storage\Test\Term;
+namespace Dhii\Storage\FuncTest\Term;
 
 use \Dhii\Storage\Term\EntityFieldInterface;
 use \Xpmock\TestCase;
