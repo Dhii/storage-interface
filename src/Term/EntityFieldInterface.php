@@ -6,7 +6,7 @@ use \Dhii\Evaluable\EvaluableInterface;
 use \Dhii\Util\String\StringableInterface;
 
 /**
- * Something that can represent a field for an entity.
+ * Something that can represent a field of an entity.
  *
  * @since [*next-version*]
  */
