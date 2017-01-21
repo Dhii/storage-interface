@@ -2,28 +2,28 @@
 
 namespace Dhii\Storage\Test\Operation;
 
-use \Dhii\Storage\Operation\OperationResultInterface;
+use \Dhii\Storage\Operation\ResultInterface;
 use \Xpmock\TestCase;
 
 /**
- * Tests {@see \Dhii\Storage\Operation\OperationResultInterface}.
+ * Tests {@see \Dhii\Storage\Operation\ResultInterface}.
  *
  * @since [*next-version*]
  */
-class OperationResultInterfaceTest extends TestCase
+class ResultInterfaceTest extends TestCase
 {
 
     /**
      * The name of the test subject.
      */
-    const TEST_SUBJECT_CLASSNAME = 'Dhii\\Storage\\Operation\\OperationResultInterface';
+    const TEST_SUBJECT_CLASSNAME = 'Dhii\\Storage\\Operation\\ResultInterface';
 
     /**
      * Creates a new instance of the test subject.
      *
      * @since [*next-version*]
      *
-     * @return OperationResultInterface
+     * @return ResultInterface
      */
     public function createInstance()
     {
@@ -39,7 +39,7 @@ class OperationResultInterfaceTest extends TestCase
     /**
      * Tests whether a valid instance of the test subject can be created.
      *
-     * @covers \Dhii\Storage\Operation\OperationResultInterface
+     * @covers \Dhii\Storage\Operation\ResultInterface
      *
      * @since [*next-version*]
      */

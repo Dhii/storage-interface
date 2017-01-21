@@ -3,7 +3,7 @@
 namespace Dhii\Storage;
 
 use \Dhii\Storage\Operation\OperationInterface;
-use \Dhii\Storage\Operation\OperationResultInterface;
+use \Dhii\Storage\Operation\ResultInterface;
 use \Dhii\Storage\Query\QueryInterface;
 
 /**
@@ -25,7 +25,7 @@ interface AdapterInterface
      *                                      Conditions, limiting, ordering, and other parameters that determine
      *                                      what and how to retrieve should be passed here.
      *
-     * @return OperationResultInterface The query result.
+     * @return ResultInterface The query result.
      */
     public function query(OperationInterface $operation, QueryInterface $query);
 }

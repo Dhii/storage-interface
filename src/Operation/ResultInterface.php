@@ -7,7 +7,7 @@ namespace Dhii\Storage\Operation;
  *
  * @since [*next-version*]
  */
-interface OperationResultInterface
+interface ResultInterface
 {
     /**
      * Gets the result set that is the product of a storage adapter operation.
