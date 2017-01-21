@@ -2,7 +2,7 @@
 
 namespace Dhii\Storage\FuncTest\Query;
 
-use \Dhii\Storage\Query\ConditionAwareInterface;
+use Dhii\Storage\Query\ConditionAwareInterface;
 use \Xpmock\TestCase;
 
 /**

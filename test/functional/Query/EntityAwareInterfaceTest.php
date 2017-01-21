@@ -2,7 +2,7 @@
 
 namespace Dhii\Storage\FuncTest\Query;
 
-use \Dhii\Storage\Query\EntityAwareInterface;
+use Dhii\Storage\Query\EntityAwareInterface;
 use \Xpmock\TestCase;
 
 /**

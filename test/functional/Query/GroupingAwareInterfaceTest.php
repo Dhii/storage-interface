@@ -2,7 +2,7 @@
 
 namespace Dhii\Storage\FuncTest\Query;
 
-use \Dhii\Storage\Query\GroupingAwareInterface;
+use Dhii\Storage\Query\GroupingAwareInterface;
 use \Xpmock\TestCase;
 
 /**

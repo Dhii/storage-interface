@@ -2,7 +2,7 @@
 
 namespace Dhii\Storage\FuncTest\Query;
 
-use \Dhii\Storage\Query\FieldsAwareInterface;
+use Dhii\Storage\Query\FieldsAwareInterface;
 use \Xpmock\TestCase;
 
 /**

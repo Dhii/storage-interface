@@ -2,7 +2,7 @@
 
 namespace Dhii\Storage\FuncTest\Query;
 
-use \Dhii\Storage\Query\LimitAwareInterface;
+use Dhii\Storage\Query\LimitAwareInterface;
 use \Xpmock\TestCase;
 
 /**

@@ -2,8 +2,8 @@
 
 namespace Dhii\Storage\Term;
 
-use \Dhii\Evaluable\EvaluableInterface;
-use \Dhii\Util\String\StringableInterface;
+use Dhii\Evaluable\EvaluableInterface;
+use Dhii\Util\String\StringableInterface;
 
 /**
  * Something that can represent a field of an entity.

@@ -2,7 +2,7 @@
 
 namespace Dhii\Storage\FuncTest\Query;
 
-use \Dhii\Storage\Query\OffsetAwareInterface;
+use Dhii\Storage\Query\OffsetAwareInterface;
 use \Xpmock\TestCase;
 
 /**

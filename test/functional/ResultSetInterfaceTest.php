@@ -2,7 +2,7 @@
 
 namespace Dhii\Storage\FuncTest;
 
-use \Dhii\Storage\ResultSetInterface;
+use Dhii\Storage\ResultSetInterface;
 use \Xpmock\TestCase;
 
 /**
