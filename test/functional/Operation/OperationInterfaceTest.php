@@ -38,8 +38,6 @@ class OperationInterfaceTest extends TestCase
     /**
      * Tests whether a valid instance of the test subject can be created.
      *
-     * @covers \Dhii\Storage\Operation\OperationInterface
-     *
      * @since [*next-version*]
      */
     public function testCanBeCreated()

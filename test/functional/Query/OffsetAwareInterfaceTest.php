@@ -37,8 +37,6 @@ class OffsetAwareInterfaceTest extends TestCase
     /**
      * Tests whether a valid instance of the test subject can be created.
      *
-     * @covers \Dhii\Storage\Query\OffsetAwareInterface
-     *
      * @since [*next-version*]
      */
     public function testCanBeCreated()

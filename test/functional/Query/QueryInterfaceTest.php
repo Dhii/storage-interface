@@ -38,8 +38,6 @@ class QueryInterfaceTest extends TestCase
     /**
      * Tests whether a valid instance of the test subject can be created.
      *
-     * @covers \Dhii\Storage\Query\QueryInterface
-     *
      * @since [*next-version*]
      */
     public function testCanBeCreated()

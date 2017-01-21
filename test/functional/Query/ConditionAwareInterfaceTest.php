@@ -37,8 +37,6 @@ class ConditionAwareInterfaceTest extends TestCase
     /**
      * Tests whether a valid instance of the test subject can be created.
      *
-     * @covers \Dhii\Storage\Query\ConditionAwareInterface
-     *
      * @since [*next-version*]
      */
     public function testCanBeCreated()

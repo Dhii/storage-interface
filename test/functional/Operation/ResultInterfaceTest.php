@@ -39,8 +39,6 @@ class ResultInterfaceTest extends TestCase
     /**
      * Tests whether a valid instance of the test subject can be created.
      *
-     * @covers \Dhii\Storage\Operation\ResultInterface
-     *
      * @since [*next-version*]
      */
     public function testCanBeCreated()

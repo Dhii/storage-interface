@@ -37,8 +37,6 @@ class AdapterInterfaceTest extends TestCase
     /**
      * Tests whether a valid instance of the test subject can be created.
      *
-     * @covers \Dhii\Storage\AdapterInterface
-     *
      * @since [*next-version*]
      */
     public function testCanBeCreated()
