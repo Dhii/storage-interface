@@ -17,7 +17,7 @@ interface EntityFieldInterface extends EvaluableInterface
      *
      * @since [*next-version*]
      *
-     * @return string|StringableInterface The string entity name or a string castable object.
+     * @return string|StringableInterface The string entity name or a string-castable object representing such a name.
      */
     public function getEntityName();
 
@@ -26,7 +26,7 @@ interface EntityFieldInterface extends EvaluableInterface
      *
      * @since [*next-version*]
      *
-     * @return string|StringableInterface The string field name or a string castable object.
+     * @return string|StringableInterface The string field name or a string-castable object representing such a name.
      */
     public function getFieldName();
 }
