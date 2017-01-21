@@ -3,7 +3,7 @@
 namespace Dhii\Storage\Query;
 
 /**
- * Represents the specifics of the query.
+ * Represents the specifics of a query.
  *
  * @since [*next-version*]
  */

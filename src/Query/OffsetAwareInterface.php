@@ -3,14 +3,14 @@
 namespace Dhii\Storage\Query;
 
 /**
- * Something that is aware of the offset of storage operation result.
+ * Something that is aware of the offset of a storage operation result.
  *
  * @since [*next-version*]
  */
 interface OffsetAwareInterface
 {
     /**
-     * Retrieve the number of rows to ignore from the start of the operation result.
+     * Retrieve the number of rows to ignore from the start of an operation result.
      *
      * @since [*next-version*]
      *
