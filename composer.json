@@ -12,8 +12,8 @@
     "minimum-stability": "dev",
     "require": {
         "php": "^5.3.9 | ^7.0",
-        "dhii/espresso-interface": "dev-master",
-        "dhii/stringable-interface": "dev-master"
+        "dhii/expression-interface": "^0.1",
+        "dhii/stringable-interface": "^0.1"
     },
     "require-dev": {
     	"phpunit/phpunit": "4.*",
@@ -24,20 +24,5 @@
     	"psr-4": {
     		"Dhii\\Storage\\": "src/"
     	}
-    },
-    
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/Dhii/data-key-value-aware-interface"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/Dhii/evaluable-interface"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/Dhii/espresso-interface"
-        }
-    ]
+    }
 }
