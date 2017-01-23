@@ -16,7 +16,7 @@ class ConditionAwareInterfaceTest extends TestCase
     /**
      * The name of the test subject.
      */
-    const TEST_SUBJECT_CLASSNAME = 'Dhii\Storage\Query\\ConditionAwareInterface';
+    const TEST_SUBJECT_CLASSNAME = 'Dhii\\Storage\\Query\\ConditionAwareInterface';
 
     /**
      * Creates a new instance of the test subject.
