@@ -3,7 +3,7 @@
 namespace Dhii\Storage\FuncTest;
 
 use Dhii\Storage\AdapterInterface;
-use \Xpmock\TestCase;
+use Xpmock\TestCase;
 
 /**
  * Tests {@see \Dhii\Storage\AdapterInterface}.

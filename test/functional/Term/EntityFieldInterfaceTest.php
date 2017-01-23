@@ -3,7 +3,7 @@
 namespace Dhii\Storage\FuncTest\Term;
 
 use Dhii\Storage\Term\EntityFieldInterface;
-use \Xpmock\TestCase;
+use Xpmock\TestCase;
 
 /**
  * Tests {@see \Dhii\Storage\Term\EntityFieldInterface}.

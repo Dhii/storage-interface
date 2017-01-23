@@ -3,7 +3,7 @@
 namespace Dhii\Storage\FuncTest\Operation;
 
 use Dhii\Storage\Operation\OperationInterface;
-use \Xpmock\TestCase;
+use Xpmock\TestCase;
 
 /**
  * Tests {@see \Dhii\Storage\Operation\OperationInterface}.
