@@ -2,7 +2,7 @@
 
 namespace Dhii\Storage\Query;
 
-use Dhii\Espresso\LogicalExpressionInterface;
+use Dhii\Expression\LogicalExpressionInterface;
 
 /**
  * Something that can represent operation conditions.

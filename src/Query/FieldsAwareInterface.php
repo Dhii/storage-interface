@@ -2,7 +2,7 @@
 
 namespace Dhii\Storage\Query;
 
-use Dhii\Espresso\ExpressionInterface;
+use Dhii\Expression\ExpressionInterface;
 
 /**
  * Something that can determine how operation results are formed.

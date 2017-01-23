@@ -2,8 +2,8 @@
 
 namespace Dhii\Storage\Query;
 
-use Dhii\Espresso\ExpressionInterface;
-use Dhii\Espresso\LogicalExpressionInterface;
+use Dhii\Expression\ExpressionInterface;
+use Dhii\Expression\LogicalExpressionInterface;
 
 /**
  * Something that provides information about storage entities.
