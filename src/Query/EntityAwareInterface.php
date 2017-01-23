@@ -10,7 +10,7 @@ use Dhii\Expression\LogicalExpressionInterface;
  *
  * That is, what data sources to involve in a storage operation, and how they relate.
  *
- * @since [*next-version*]
+ * @since 0.1
  */
 interface EntityAwareInterface
 {
@@ -19,7 +19,7 @@ interface EntityAwareInterface
      *
      * Typically, the expression terms would represent entities.
      *
-     * @since [*next-version*]
+     * @since 0.1
      *
      * @return ExpressionInterface The expression that represents the entities.
      */
@@ -30,7 +30,7 @@ interface EntityAwareInterface
      *
      * Typically, the expression terms would represent field comparison, or groups of comparisons.
      *
-     * @since [*next-version*]
+     * @since 0.1
      *
      * @return LogicalExpressionInterface The expression that represents join conditions.
      */

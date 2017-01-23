@@ -9,14 +9,14 @@ use Dhii\Storage\Query\QueryInterface;
 /**
  * Medium-agnostic storage adapter.
  *
- * @since [*next-version*]
+ * @since 0.1
  */
 interface AdapterInterface
 {
     /**
      * Queries the underlying medium based on a set of parameters.
      *
-     * @since [*next-version*]
+     * @since 0.1
      *
      * @param OperationInterface $operation Represents the operation of the query.
      *                                      Typically, this would be a CRUD operation.

@@ -5,7 +5,7 @@ namespace Dhii\Storage\Query;
 /**
  * Represents the specifics of a query.
  *
- * @since [*next-version*]
+ * @since 0.1
  */
 interface QueryInterface extends
     EntityAwareInterface

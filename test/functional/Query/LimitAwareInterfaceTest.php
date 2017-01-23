@@ -8,7 +8,7 @@ use \Xpmock\TestCase;
 /**
  * Tests {@see \Dhii\Storage\Query\LimitAwareInterface}.
  *
- * @since [*next-version*]
+ * @since 0.1
  */
 class LimitAwareInterfaceTest extends TestCase
 {
@@ -21,7 +21,7 @@ class LimitAwareInterfaceTest extends TestCase
     /**
      * Creates a new instance of the test subject.
      *
-     * @since [*next-version*]
+     * @since 0.1
      *
      * @return LimitAwareInterface
      */
@@ -37,7 +37,7 @@ class LimitAwareInterfaceTest extends TestCase
     /**
      * Tests whether a valid instance of the test subject can be created.
      *
-     * @since [*next-version*]
+     * @since 0.1
      */
     public function testCanBeCreated()
     {

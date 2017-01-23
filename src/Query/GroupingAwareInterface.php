@@ -7,7 +7,7 @@ use Dhii\Expression\ExpressionInterface;
 /**
  * Something that can determine how results are grouped.
  *
- * @since [*next-version*]
+ * @since 0.1
  */
 interface GroupingAwareInterface
 {
@@ -16,7 +16,7 @@ interface GroupingAwareInterface
      *
      * Typically, the expression's terms would represent fields to group the results by.
      *
-     * @since [*next-version*]
+     * @since 0.1
      *
      * @return ExpressionInterface The grouping expression.
      */

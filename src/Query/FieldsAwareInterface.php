@@ -7,7 +7,7 @@ use Dhii\Expression\ExpressionInterface;
 /**
  * Something that can determine how operation results are formed.
  *
- * @since [*next-version*]
+ * @since 0.1
  */
 interface FieldsAwareInterface
 {
@@ -16,7 +16,7 @@ interface FieldsAwareInterface
      *
      * For example, during read operations, this determines what fields to retrieve.
      *
-     * @since [*next-version*]
+     * @since 0.1
      *
      * @return ExpressionInterface The fields expression.
      *                             Typically, the terms of this expression would represent fields or aliases

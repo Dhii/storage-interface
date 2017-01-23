@@ -8,14 +8,14 @@ use Dhii\Util\String\StringableInterface;
 /**
  * Something that can represent a field of an entity.
  *
- * @since [*next-version*]
+ * @since 0.1
  */
 interface EntityFieldInterface extends EvaluableInterface
 {
     /**
      * Retrieve the name of the entity.
      *
-     * @since [*next-version*]
+     * @since 0.1
      *
      * @return string|StringableInterface The string entity name or a string-castable object representing such a name.
      */
@@ -24,7 +24,7 @@ interface EntityFieldInterface extends EvaluableInterface
     /**
      * Retrieves the name of the entity field.
      *
-     * @since [*next-version*]
+     * @since 0.1
      *
      * @return string|StringableInterface The string field name or a string-castable object representing such a name.
      */
