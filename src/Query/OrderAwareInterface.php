@@ -19,7 +19,7 @@ interface OrderAwareInterface
      *
      * @since [*next-version*]
      *
-     * @return ExpressionInterface The grouping expression.
+     * @return ExpressionInterface The ordering expression.
      */
     public function getOrder();
 }
